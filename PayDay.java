@@ -1,22 +1,36 @@
-// This is creative application to help hourly employees create a bugdet
-// before they receive their paycheck. It will help them to realize how much 
-// they have to spend on bills and necessities as well to see if they will 
-// have extra money to either spend or save.
+/* This is creative application to help hourly employees create a bugdet
+ before they receive their paycheck. It will help them to realize how much
+ they have to spend on bills and necessities as well to see if they will
+ have extra money to either spend or save.*/
 
 package practice.work;
 public class PayDay {
-    double check;
-    double hours;
-    double payrate;
+   private double check;
+   private double hours;
+   private double payRate;
         
-    PayDay(){}
-    PayDay(double check, double hours){
-        this.check = check;
+    public PayDay(double hours, double payRate){
         this.hours = hours;
+        this.payRate = payRate;
+        calculateCheck();
     }
-    double getPayRate(){return payrate;}
-    double getHours(){return hours * 2;}
-    double getCheck(){return payrate * getHours();}
-    void setCheck(double newPC){check = newPC;}
-     
+
+    public double getHours() { return hours; }
+    public void setHours(double hours) {
+        this.hours = hours;
+        calculateCheck();
+    }
+
+    public double getPayRate() { return payRate; }
+    public void setPayRate(double payRate) {
+        this.payRate = payRate;
+        calculateCheck();
+    }
+
+    public double getCheck() { return check; }
+
+    public void calculateCheck() {
+        this.check = (this.hours * this.payRate) * 2;
+    }
+
 }
