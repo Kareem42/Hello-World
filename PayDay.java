@@ -1,4 +1,4 @@
-/* This is creative application to help hourly employees create a bugdet
+/* This is creative application to help hourly employees create a budget
  before they receive their paycheck. It will help them to realize how much
  they have to spend on bills and necessities as well to see if they will
  have extra money to either spend or save.*/
