@@ -1,6 +1,40 @@
-# Pay Check Estimator
-I am a beginner in the programming world, looking to expand my knowledge, get feedback on projects that I have created
-as well as an opportunity for a job or career in the future, hopefully. I am a quick learner and open to any suggestions
-that will help me to become a better programmer. I am a honest person and i am not afraid to admit that i dont know how to do something. However, I will not only do my own research to find the answer to the solution, but i will reach out to others who will be willing to help me figure out the problem.
+Pay Period Estimator
 
-Within this file is a project I created 4 years ago using Louisiana's tax percentages. Although the numbers may not be accurate due the constant changes of the percentages, I consider it as a rough draft of something that could be a useful tool for everyone in the world.
+A simple Java application to quickly estimate your bi-weekly paycheck.
+
+Features
+* Fast bi-weekly paycheck estimation
+* Friendly UI/UX 
+* Beginner-friendly inputs (hours worked, pay rate, etc.)
+* Lightweight and easy to run
+
+  
+Getting Started
+* Clone or download this repository.
+* Compile the Java program:
+* Using javac:
+* Navigate to the project directory and run:
+* javac EstimatorUI.java
+
+Or use your preferred IDE (IntelliJ IDEA, Eclipse, VS Code) to build the project.
+Run the program:
+java EstimatorUI
+
+Usage
+When prompted, enter:
+* Hours worked in the pay period
+* Hourly pay rate
+* Any other requested details (if applicable)
+* The application will display your estimated bi-weekly paycheck.
+
+  
+Who Is This For?
+* Anyone who needs a quick, straightforward estimate of their bi-weekly pay.
+* New programmers or GitHub users looking for a simple Java project to run and learn from.
+
+  
+Contributing
+Contributions are welcome! Feel free to open an issue or submit a pull request with improvements or feature ideas.
+
+License
+MIT, Apache 2.0
